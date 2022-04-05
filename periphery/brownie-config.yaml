@@ -1,0 +1,9 @@
+dependencies:
+  - Uniswap/v2-periphery@1.0.0-beta.0
+compiler:
+  solc:
+    remappings:
+      - "@uniswap=Uniswap/v2-periphery@1.0.0-beta.0"
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
